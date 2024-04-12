@@ -1,0 +1,84 @@
+.logs/
+.emailPickup/
+TestQuarta.publish.xml
+User.publish.xml
+User.*.publish.xml
+ConnectionSettings.config.user
+
+.cr/
+
+appsettings.Local.json
+
+#ignore all node modules
+node_modules/
+
+#ignore thumbnails created by windows
+Thumbs.db
+
+# NuGet Packages Directory
+packages/
+!packages/repositories.config
+
+# Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
+!packages/*/build/
+
+
+#Ignore files build by Visual Studio
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.jfm
+*.suo
+*.bak
+*.cache
+*.ilk
+*.log
+*.svclog
+*.dbmdl
+storage.ide
+[Bb]in
+[Dd]ebug*/
+*.sbr
+obj/
+[Rr]elease*/
+*.Cache
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.suo
+
+#WebStorm 
+.idea
+.vs/
+.vs/config/applicationhost.config 
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+~$�������� ��� �������������.docx
+/~$струкция для разработчиков.docx
+
+
+#Dispatcher
+Quarta.EisUks.Dispatcher/Quarta.EisUks.Dispatcher.WebApi/wwwroot/
+/Documentation/~$исание API для мобильного приложения ДПО.docx
+
+/Documentation/ЕСИА/~$торизация через ЕСИА для мобильного приложения.docx
+/Documentation/~*.tmp
+/Documentation/~WRL0044.tmp
+/Documentation/~WRL1480.tmp
+/Documentation/~$*.docx
+/Documentation/Интеграция ДПО/~$теграция.docx
+
+appsettings.Local.json
+
+#Logs
+/src/Quarta.PM.WebApi/log*.txt
+/src/Quarta.PM.Migrator/log*.txt
+/src/Database/_Migrator/log*.txt
